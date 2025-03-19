@@ -1,0 +1,43 @@
+* {
+    color: darkslategray;
+}
+
+p {
+    color: black;
+}
+
+.header-text {
+    color:chocolate
+}
+
+#main-h {
+    color: darkred;
+}
+
+[title^="Увага!!!"] {
+    color: brown;
+}
+
+[class$="__blue"] {
+	color: blue;
+}
+
+.nav a {
+    color: aqua;
+}
+
+.nav a > span {
+    color: green;
+}
+
+.nav ul a {
+    color: orange;
+}
+
+.nav ul ul a {
+    color: red;
+}
+
+.copy ~ p {
+    color: transparent;
+}
