@@ -1,0 +1,102 @@
+@import url(reset.css);
+
+.header {
+    padding: 40px;
+    color: #fff;
+    background-color: #252B42;
+    text-align: center;
+    font-size: 36px;
+    font-family: sans-serif;
+    border-bottom: 2px solid #E74040;
+}
+
+.bussines {
+    font-family: 'Circular Std', sans-serif;
+    background-color: #231F8B;
+    font-size: 14px;
+    color: #fff;
+    padding: 102px 0;
+}
+
+.bussines-wrp {
+    max-width: 1044px;
+    overflow-x: hidden;
+    margin: 0 auto;
+    
+}
+
+.section-name {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #5A54F2;
+    margin: 10px 0;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.section-description {
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    max-width: 765px;
+    margin: 10px 0;
+}
+
+.block-wrp {
+    font-size: 0;
+    list-style: none;
+    margin: 50px -1.4% 10px;
+}
+
+.block-el {
+    display: inline-block;
+    vertical-align: top;
+    width: 22.2%;
+    margin: 20px 1.4%;
+    font-size: 14px;
+    background-color: #fff;
+    padding: 15px 40px;
+    color: #737373;
+}
+
+.block-el.even {
+    margin-top: 68px;
+}
+
+.block-el.hover,
+.block-el.hover .block-title {
+    color: #fff;
+    background-color: #5A54F2;
+}
+
+.block-el.hover .decor-line {
+    background-color: #fff;
+}
+
+.block-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #252B42;
+    margin: 20px 0;
+}
+
+.decor-line {
+    background-color: #E74040;
+    max-width: 50px;
+    height: 2px;
+    margin: 20px 0;
+}
+
+.block-text {
+    margin: 20px 0;
+}
+
+.block-icon {
+    margin: 20px 0;
+    display: block;
+}
